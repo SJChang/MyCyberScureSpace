@@ -7,6 +7,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 	
 
   	<!-- Facebook and Twitter integration -->
@@ -32,6 +33,12 @@
 
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/modernizr-2.6.2.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
@@ -88,7 +95,36 @@
 					<div class="col-md-8 col-md-offset-2 text-center ts-intro">
 						<h1>CyberPedia</h1>
 					</div>
+				
 				</div>
+
+
+<!-- 有問題的地方 -->
+
+<p>
+  <!-- <a class="btn btn-primary" data-toggle="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">offensive</a> -->
+  <button class="btn btn-primary" type="button" onclick="$('#multiCollapseExample1').toggle(300);">Defense</button>
+  <button class="btn btn-primary" type="button" onclick="$('#multiCollapseExample2').toggle(300);">both</button>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">test1
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        test2
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 			</div>
 		</div>
 
