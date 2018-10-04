@@ -213,6 +213,19 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: none;
 }
 
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 60px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 .link-with-icon {
   padding-right: 20px;
   position: relative;
