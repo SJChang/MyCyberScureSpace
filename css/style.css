@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Comic Sans MS", Comic Sans MS, sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
@@ -50,7 +50,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Work Sans", Comic Sans MS, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Work Sans", Comic Sans MS, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 50px;
@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header #fh5co-main-nav ul li a {
   font-size: 16px;
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.5);
+  color: #fff;
   font-weight: 400;
   padding: 15px 7px;
   line-height: 1.2;
@@ -428,6 +428,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header #fh5co-main-nav ul li.has-sub .drop-down-menu .dropdown-menu-wrap ul li a {
   display: block;
   padding: 5px 0px;
+  color: black;
 }
 #fh5co-header #fh5co-main-nav ul li.has-sub .drop-down-menu.active .dropdown-menu-wrap {
   margin-top: 17px;
